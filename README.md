@@ -14,4 +14,8 @@
 2026.2.12：内扣依然同样问题，开学整cnc加工腿部<br>
 2026.2.13-3.1：过年摆烂，卡在遥控器接收crsf协议，串口空闲中断+DMA一直收不到数据<br>
 2026.3.1-3.10：更换扭矩更大的轮毂电机，现在更稳了，但是轮腿外八现象依然存在。而且遥控器数据一直接收不到，期间还下单cnc加工腿部<br>
-2026.3.11
+2026.3.11:突然发现一篇文章https://blog.csdn.net/qq_41544116/article/details/100155203，然后我打印printf("elrs_data_temp addr: 0x%08X\r\n", (uint32_t)elrs_data_temp);发现结果elrs_data_temp addr: 0x20008130，于是找到问题。将缓冲区显式放入AXI SRAM（地址0x24000000）。修改链接脚本STM32H723XX_FLASH.ld，在SECTIONS中添加一个新段：<br>
+.dma_buffer (NOLOAD) : {<br>
+    *(.dma_buffer)<br>
+} > RAM
+
