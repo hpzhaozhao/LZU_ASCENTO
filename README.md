@@ -1,6 +1,17 @@
 # LZU_ASCENTO
-毕业设计：模仿ascento，一种四连杆轮腿机器人<br>
-手搓记录：<br>
+毕业设计：模仿ascento，一种四连杆轮腿机器人(论文地址：https://ieeexplore.ieee.org/document/8793792)<br>
+代码参考达妙开源桌面轮足https://gitee.com/kit-miao/balance_robot
+## 所需软件
+clion+stm32cubemx(b站keysking教程) soildworks(教程自学，整车结构不开源，因为画的有点烂，最关键的就是腿结构) matlab vscode 嘉立创eda
+## bom表及成本
+1.stackforce关节电机（单编，额定5N.M）*2->900元（更推荐买达妙电机）
+2.dmh6215轮毂电机*2->650元
+3.radiomaster遥控器+elrs接收机->400元
+4.达妙dmmc02开发板（stm32h723）->200元
+5.博氏航模锂电池（还要额外购买平衡充，120W电源充电器）->450元
+6.m3和m5螺丝，螺母，法兰轴承，垫片，束线管若干->100元
+7.打印件，cnc加工，轮胎胎皮（我的是江昕5*2A轮胎）->400元
+## 手搓记录：
 2025.9-12：分电板，solidworks建模<br>
 2026.1.6：学习freertos(b站keysking)，学习can总线，成功驱动关节电机与轮毂电机<br>
 2026.1.7-2.1:阶段性摆烂，看两篇论文(ascento,轮腿式平衡机器人控制），学习了一下动力学模型，与LQR理论<br>
