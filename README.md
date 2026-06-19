@@ -1,4 +1,5 @@
 # LZU_ASCENTO
+<img width="535" height="401" alt="实物图" src="https://github.com/user-attachments/assets/cec4b26f-29fa-4627-9ad5-b30794df1176" /><br>
 毕业设计：模仿ascento，一种四连杆轮腿机器人(论文地址：https://ieeexplore.ieee.org/document/8793792)<br>
 代码参考达妙开源桌面轮足https://gitee.com/kit-miao/balance_robot
 ## 所需软件
