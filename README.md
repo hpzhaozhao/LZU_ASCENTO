@@ -3,6 +3,10 @@
 代码参考达妙开源桌面轮足https://gitee.com/kit-miao/balance_robot
 ## 所需软件
 clion+stm32cubemx(b站keysking教程) soildworks(教程自学，整车结构就不放了，本人不是机械专业，模型画的有点烂，最关键的就是腿结构) matlab vscode 嘉立创eda
+## 腿部结构示意图(附长度比例)
+<img width="351" height="381" alt="腿部结构" src="https://github.com/user-attachments/assets/39c33dc8-4cda-4d91-85c2-859b9caf60bf" />
+大致比例：   L1:L2:L3:L4:L5 = 1:1.0065:0.04621:1.0327:0.2418<br>
+L3与水平面夹角为45°
 ## bom表及成本
 1.stackforce关节电机（单编，额定5N.M）*2->800元（已经停产，更推荐买达妙电机）<br>
 2.dmh6215轮毂电机*2->650元<br>
