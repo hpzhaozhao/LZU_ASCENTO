@@ -1,7 +1,8 @@
 # LZU_ASCENTO
 <img width="535" height="401" alt="实物图" src="https://github.com/user-attachments/assets/cec4b26f-29fa-4627-9ad5-b30794df1176" /><br>
 毕业设计：模仿ascento，一种四连杆轮腿机器人(论文地址：https://ieeexplore.ieee.org/document/8793792)<br>
-代码参考达妙开源桌面轮足https://gitee.com/kit-miao/balance_robot
+代码参考达妙开源桌面轮足https://gitee.com/kit-miao/balance_robot<br>
+注：复刻成本较高，想学习LQR的同学可以就用平衡小车电机换成无刷电机即可。
 ## 所需软件
 clion+stm32cubemx(b站keysking教程) soildworks(教程自学，整车结构就不放了，本人不是机械专业，模型画的有点烂，最关键的就是腿结构) matlab vscode 嘉立创eda
 ## 腿部结构示意图(附长度比例)
